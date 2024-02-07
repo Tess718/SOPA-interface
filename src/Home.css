@@ -1,0 +1,133 @@
+.hero1{
+    background-image: url('https://img.freepik.com/free-photo/high-angle-black-man-posing-with-sunglasses_23-2149415774.jpg?w=360&t=st=1707222815~exp=1707223415~hmac=c811909128d22ac1f86c244289ee2d46e056f7e9814e1c1d4acd135cca26f475');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 84vh;
+}
+#hero h1{
+    font-size: 65px;
+    letter-spacing: 0.01px;
+    line-height: 60px;
+}
+#hero p{
+    line-height: 18px;
+}
+.second{
+    height: 55vh;
+}
+.smcol{
+    background: linear-gradient( to right, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('https://img.freepik.com/free-photo/black-bucket-hat-unisex-accessory_53876-106055.jpg?w=740&t=st=1707228753~exp=1707229353~hmac=a6ce6163c37760c120b4122b18acb752cf39d21cc860f71e410f3b85f89d37e9');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #D9C9BC;
+    height: 26.5vh;
+    flex-basis: 49%;
+}
+.smcol2{
+    background: linear-gradient( to right, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('https://img.freepik.com/free-psd/cap-mockup_1310-498.jpg?w=740&t=st=1707233911~exp=1707234511~hmac=b850a0f2d02def88bdd0fa1b465cd5fe839f178d027907182abd557a8f59685c');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #D9C9BC;
+    height: 26.5vh;
+    flex-basis: 49%;
+}
+.flexit{
+    display: flex;
+}
+.circ{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0,0,0,0.2);
+    top: 45%;
+    right: 10%;
+}
+.soptxt h4{
+    font-size: 50px;
+    /* line-height: 60px; */
+    padding-top: 8%;
+}
+.shirt{
+    width: 50px;
+}
+#shop{
+    padding-top: 8%;
+}
+.dmal{
+    height: 500px !important;
+    object-fit: cover;
+    object-position: center;
+}
+.newab{
+    position: absolute;
+    top: 5%;
+    left: 10%
+}
+.curve{
+    width: 20px;
+    height: 20px;
+}
+#made{
+    padding-top: 8%;
+}
+.bg-orange{
+    background-color: #ff5349;
+}
+.incfs{
+    font-size: 70px;
+}
+.glo{
+    width: 40px;
+    height: 40px;
+}
+.april{
+    filter: grayscale(100);
+}
+.wantxt h1{
+    padding-top: 8%;
+    font-size: 50px;
+}
+.vid{
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+}
+#footer{
+    margin-top: 8%;
+}
+#footer ul{
+    list-style: none;
+}
+.cusbtn{
+    outline: none;
+}
+#footer input{
+    outline: none;
+}
+
+
+@media(max-width: 767px){
+    .second{
+        height: fit-content;
+    }
+    .hashtag{
+        font-size: medium !important;
+    }
+    .soptxt h4{
+        font-size: 26px;
+    }
+    .wid{
+        width: fit-content;
+    }
+    .incfs{
+        font-size: 50px;
+    }
+    #footer{
+        text-align: center;
+    }
+}
