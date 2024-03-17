@@ -17,13 +17,15 @@
     height: 55vh;
 }
 .smcol{
-    background: linear-gradient(to right, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('https://img.freepik.com/free-photo/black-bucket-hat-unisex-accessory_53876-106055.jpg?w=740&t=st=1707228753~exp=1707229353~hmac=a6ce6163c37760c120b4122b18acb752cf39d21cc860f71e410f3b85f89d37e9');
+    background: linear-gradient(110.2deg, rgba(17, 17, 16, 0.8) 15.21%, rgba(17, 17, 16, 0.53) 98.72%),
+ url('https://img.freepik.com/free-photo/black-bucket-hat-unisex-accessory_53876-106055.jpg?w=740&t=st=1707228753~exp=1707229353~hmac=a6ce6163c37760c120b4122b18acb752cf39d21cc860f71e410f3b85f89d37e9');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #D9C9BC;
     height: 26.5vh;
     flex-basis: 49%; 
+    
 }
 .smcol2{
     background: linear-gradient( to right, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('https://img.freepik.com/free-psd/cap-mockup_1310-498.jpg?w=740&t=st=1707233911~exp=1707234511~hmac=b850a0f2d02def88bdd0fa1b465cd5fe839f178d027907182abd557a8f59685c');
@@ -126,6 +128,9 @@
     }
     .incfs{
         font-size: 50px;
+    }
+    .msi{
+        font-size: 8px !important;
     }
     #footer{
         text-align: center;

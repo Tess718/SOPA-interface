@@ -195,14 +195,14 @@ const Home = () => {
         <h1 className='fw-bold text-uppercase incfs'>WE're changing <br /> the way things <br /> get made.</h1>
 
         <hr className='opacity-100 mt-5' />
-        <div className="d-flex mt-5">
+        <div className="d-flex mt-5 gap-1">
           <div className="col-6">
             <h5 className='text-uppercase d-flex align-items-center gap-2 fw-bold'><div className="bg-black rounded-circle text-white d-flex justify-content-center align-items-center glo"><i class="bi bi-globe"></i></div>Mission</h5>
-            <p className='p-0 m-0 fw-bold'>We're in a mission to empower creative independence in a commercial world and incredible</p>
+            <p className='p-0 m-0 fw-bold msi'>We're in a mission to empower creative independence in a commercial world and incredible</p>
           </div>
           <div className="col-6">
             <h5 className='text-uppercase d-flex align-items-center gap-2 fw-bold'><div className="bg-black rounded-circle text-white d-flex justify-content-center align-items-center glo"><i class="bi bi-eye"></i></div>Vission</h5>
-            <p className='p-0 m-0 fw-bold'>We're in a mission to empower creative independence in a commercial world and incredible</p>
+            <p className='p-0 m-0 fw-bold msi'>We're in a mission to empower creative independence in a commercial world and incredible</p>
           </div>
         </div>
       </div>
