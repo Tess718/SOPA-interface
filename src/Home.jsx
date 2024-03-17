@@ -25,17 +25,17 @@ const Home = () => {
           <a className="nav-link fw-medium" href="#">CONTACT</a>
         </li>
       </ul>
-      <ul className='navbar-nav'>
-        <li className='nav-item'>
+      <div className='d-flex ms-2 ms-lg-0'>
+        <div className='nav-item'>
         <i class="bi bi-search fs-5"></i>
-        </li>
-        <li className='nav-item mx-3'>
+        </div>
+        <div className='nav-item mx-3'>
         <i class="bi bi-basket2 fs-5"></i>
-        </li>
-        <li className='nav-item'>
+        </div>
+        <div className='nav-item'>
         <i class="bi bi-person fs-5"></i>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
