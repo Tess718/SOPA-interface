@@ -26,7 +26,7 @@
     flex-basis: 49%; 
 }
 .smcol2{
-    background: linear-gradient( to right, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('https://img.freepik.com/free-psd/cap-mockup_1310-498.jpg?w=740&t=st=1707233911~exp=1707234511~hmac=b850a0f2d02def88bdd0fa1b465cd5fe839f178d027907182abd557a8f59685c');
+    background: linear-gradient( to right, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('https://img.freepik.com/free-psd/cap-mockup_1310-498.jpg?w=740&t=st=1707233911~exp=1707234511~hmac=b850a0f2d02def88bdd0fa1b465cd5fe839f178d027907182abd557a8f59685c');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
